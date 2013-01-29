@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+
+{% block header %}
+
+<div class='offset4 span8'>
+    <h4>{{ entry.config.title }}
+        <small>{{ entry.config.created }}</small>
+    </h4>
+</div>
+
+{% endblock %}
+
+
+{% block content %}
+{% from 'macros.html' import tag_sidebar with context %}
+
+{{ tag_sidebar(tags, None) }}
+
+<div class='span8'>
+
+    {{ entry.rendered_markdown }}
+
+    <span class='pull-right'>
+        {% for tag in entry.config.tags %}
+        <a href="../{{ tag.replace(' ', '-') }}"><small>{{ tag|upper }}</small></a>
+        {% endfor %}
+    </span>
+</div>
+
+{% endblock %}

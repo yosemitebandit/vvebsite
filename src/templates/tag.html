@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+
+{% block header %}
+
+<div class='offset4 span8'>
+    <h6>{{ tag|upper }}</h6>
+</div>
+
+{% endblock %}
+
+
+{% block content %}
+{% from 'macros.html' import tag_sidebar with context %}
+
+{{ tag_sidebar(tags, tag) }}
+
+<div class='span8'>
+
+    {% for entry in entries %}
+    <a href='../{{ entry.slug }}'>
+        <blockquote>
+            <h4> {{ entry.config.title }}</h4>
+            <p>{{ entry.config.blurb }}</p>
+        </blockquote>
+    </a>
+    {% endfor %}
+</div>
+
+{% endblock %}

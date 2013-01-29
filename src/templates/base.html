@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang='en'>
+    <head>
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <style>
+          .header {
+            padding: 15px 0 15px 0;
+          }
+          .tags-sidebar {
+            padding-top: 10px;
+          }
+          .indicator {
+            position: relative;
+            right: 10px;
+          }
+          .arrow {
+            position: relative;
+            bottom: 2px;
+          }
+        </style>
+    </head>
+
+    <body>
+
+      <div class='header row'>
+        {% block header %}
+        {% endblock %}
+      </div>
+
+      <div class='row'>
+        {% block content %}
+        {% endblock %}
+      </div>
+
+      <div class='row'>
+        {% block footer %}
+        {% endblock %}
+      </div>
+
+    </body>
+
+</html>
