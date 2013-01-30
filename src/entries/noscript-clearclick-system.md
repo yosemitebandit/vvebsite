@@ -1,5 +1,6 @@
 title: noscript's anti-clickjacking system
 created: January 30, 2013
+blurb: noscript has kind of a funny method for clickjacking detection
 tags:
     - drafts
 
