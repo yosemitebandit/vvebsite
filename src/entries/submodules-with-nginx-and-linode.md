@@ -1,6 +1,6 @@
 title: configuring submodules with nginx and linode
-created: January 28, 2012
-updated: January 29, 2012
+created: January 28, 2013
+updated: January 29, 2013
 blurb: settin up this note collection
 tags:
     - nginx
