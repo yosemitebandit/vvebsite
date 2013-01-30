@@ -1,8 +1,7 @@
 title: noscript's anti-clickjacking system
 created: January 30, 2013
-status: draft
 tags:
-    - notes
+    - drafts
 
 css:
     - bootstrap.min.css

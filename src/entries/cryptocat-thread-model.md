@@ -1,9 +1,8 @@
 title: cryptocat's thread model
 created: January 30, 2013
 blurb: studying this chat system's security analysis
-status: draft
 tags:
-    - notes
+    - drafts
 
 css:
     - bootstrap.min.css
