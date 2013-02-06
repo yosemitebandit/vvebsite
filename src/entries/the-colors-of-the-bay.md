@@ -1,7 +1,7 @@
 title: the colors of the bay
 route: colors-of-the-bay
 created: January 30, 2013
-blurb: color mapping
+blurb: a silly mapping experiment
 tags:
     - projects
     - tiny
