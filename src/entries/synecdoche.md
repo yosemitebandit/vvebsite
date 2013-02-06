@@ -17,3 +17,8 @@ Or maybe it's about our constant, simplifying reflections on our experiences.
 I enjoyed the paintings and the recursed maps.
 The singer in the bar and the box office.
 The girl in the green jacket who would be missed.
+
+*update*
+Was he dead from a very early point in the film?
+Hallucinating on his unfinished works in a moment of elongated time, 
+like that Borges story..?
