@@ -10,7 +10,7 @@ css:
     - bootstrap.min.css
 ---
 
-Me and [Trevor]() spent a few hours making this [page](http://trevorshp.com/gmaps.htm) while our boat dried.
+Me and [Trevor](http://trevorshp.com) spent a few hours making this [page](http://trevorshp.com/gmaps.htm) while our boat dried.
 The idea  is to map a location to a color (or two) -- 
 it came about when we were thinking on Katie's [app](https://play.google.com/store/apps/details?id=com.color.colornamer)
 and its geolocation possibilities.
