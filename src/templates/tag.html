@@ -1,12 +1,33 @@
 {% extends "base.html" %}
 
+{% block head %}
+<style>
+    .tags-sidebar {
+        padding-top: 10px;
+    }
+    .indicator {
+        position: relative;
+        right: 10px;
+    }
+    .arrow {
+        position: relative;
+        bottom: 2px;
+    }
+
+    .entry-tag-title {
+        font-size: 22px;
+    }
+    .entry-blurb {
+        font-weight: 400;
+    }
+</style>
+{% endblock %}
+
 
 {% block header %}
-
 <div class='offset4 span8'>
     <h6>{{ tag|upper }}</h6>
 </div>
-
 {% endblock %}
 
 

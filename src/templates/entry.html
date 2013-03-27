@@ -1,14 +1,32 @@
 {% extends "base.html" %}
 
+{% block head %}
+<style>
+    .bottom-entry-tags {
+        padding-bottom: 20px;
+    }
+
+    .entry-date {
+        line-height: 2;
+    }
+
+    .entry-blurb {
+        font-weight: 400;
+    }
+    .entry-tag-title {
+        font-size: 22px;
+    }
+</style>
+
+{% endblock %}
+
 
 {% block header %}
-
 <div class='offset4 span8'>
     <h4>{{ entry.config.title }}
         <small class='entry-date pull-right'>{{ entry.config.created }}</small>
     </h4>
 </div>
-
 {% endblock %}
 
 

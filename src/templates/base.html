@@ -40,36 +40,17 @@
             color: #06CC21;
           }
 
+          code {
+            color: #048A16;
+          }
+
           .header {
             padding: 15px 0 15px 0;
           }
-          .tags-sidebar {
-            padding-top: 10px;
-          }
-          .indicator {
-            position: relative;
-            right: 10px;
-          }
-          .arrow {
-            position: relative;
-            bottom: 2px;
-          }
-
-          .bottom-entry-tags {
-            padding-bottom: 20px;
-          }
-
-          .entry-date {
-            line-height: 2;
-          }
-
-          .entry-blurb {
-            font-weight: 400;
-          }
-          .entry-tag-title {
-            font-size: 22px;
-          }
         </style>
+
+        {% block head %}
+        {% endblock %}
     </head>
 
     <body>
