@@ -18,23 +18,19 @@ I keep forgetting how to do this, so here are some notes:
 8. Comodo sent me `procession_org.crt`, `PositiveSSLCA2.crt` and `AddTrustExternalCARoot.crt` 
 these are concatenated in reverse order (oh god I need to fix the formatting of this blog):
 
-```
-cat procession_org.crt > procession_org-ssl-bundle.crt
-cat PositiveSSLCA2.crt >> procession_org-ssl-bundle.crt
-cat AddTrustExternalCARoot.crt >> procession_org-ssl-bundle.crt
-```
+        cat procession_org.crt > procession_org-ssl-bundle.crt
+        cat PositiveSSLCA2.crt >> procession_org-ssl-bundle.crt
+        cat AddTrustExternalCARoot.crt >> procession_org-ssl-bundle.crt
 
 9. I like to put that bundle in `/etc/ssl/certs/`
 10. then in an nginx config file (probably sites-available/procession_org.conf):
 
-```
-server {
-    listen 443;
+        server {
+            listen 443;
 
-    ssl on;
-    ssl_certificate /etc/ssl/certs/procession_org-ssl-bundle.crt
-    ssl_certificate_key /etc/ssl/private/procession_org.key
-}
-```
+            ssl on;
+            ssl_certificate /etc/ssl/certs/procession_org-ssl-bundle.crt
+            ssl_certificate_key /etc/ssl/private/procession_org.key
+        }
 
 Hm, the [linode guide](http://library.linode.com/web-servers/nginx/configuration/ssl) is quite good.
