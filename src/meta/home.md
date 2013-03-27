@@ -2,4 +2,6 @@ title: home
 route: ''
 ---
 
-herm.
+wow, a blog!
+
+hopefully this will soon have a list of recent posts or something
