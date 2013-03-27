@@ -4,9 +4,6 @@ blurb: terribly clever
 tags:
     - servers
     - notes
-
-css:
-    - bootstrap.min.css
 ---
 
 Saw this [SuperUser answer](http://superuser.com/a/422962/27119) 

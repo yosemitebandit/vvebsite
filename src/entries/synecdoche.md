@@ -3,9 +3,6 @@ created: February 1, 2013
 blurb: from Charlie Kaufman
 tags:
     - drafts
-
-css:
-    - bootstrap.min.css
 ---
 
 A film to get lost in.

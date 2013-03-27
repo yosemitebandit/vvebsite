@@ -4,9 +4,6 @@ blurb: 443's the way to be
 tags:
     - servers
     - drafts
-
-css:
-    - bootstrap.min.css
 ---
 
 I keep forgetting how to do this, so here are some notes:

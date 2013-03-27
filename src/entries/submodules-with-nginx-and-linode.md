@@ -5,9 +5,6 @@ blurb: settin up this note collection
 tags:
     - servers
     - notes
-
-css:
-    - bootstrap.min.css
 ---
 
 I wanted to setup a custom subdomain to serve static content on nginx and a linode.

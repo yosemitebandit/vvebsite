@@ -4,9 +4,6 @@ blurb: thoughts on my full-time work in 2012
 tags:
     - werk
     - drafts
-
-css:
-    - bootstrap.min.css
 ---
 
 I was a Program Associate at Aquaya from February 2012 to February 2013,

@@ -5,9 +5,6 @@ blurb: a silly mapping experiment
 tags:
     - projects
     - tiny
-
-css:
-    - bootstrap.min.css
 ---
 
 Me and [Trevor](http://trevorshp.com) spent a few hours making this [page](http://trevorshp.com/gmaps.htm) while our boat dried.

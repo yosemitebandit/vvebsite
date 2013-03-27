@@ -4,9 +4,6 @@ blurb: a great trip with some great folks
 tags:
     - travels
     - drafts
-
-css:
-    - bootstrap.min.css
 ---
 
 stayed for a few days in Estes Park with about 20 other folks

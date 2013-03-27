@@ -3,9 +3,6 @@ created: January 30, 2013
 blurb: noscript has kind of a funny method for clickjacking detection
 tags:
     - drafts
-
-css:
-    - bootstrap.min.css
 ---
 
 noscript's [ClearClick system](http://noscript.net/faq#clearclick) is very neat.

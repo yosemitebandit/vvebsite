@@ -3,9 +3,6 @@ created: February 10, 2013
 blurb: from Quentin
 tags:
     - drafts
-
-css:
-    - bootstrap.min.css
 ---
 
 It had its moments.

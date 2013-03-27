@@ -3,9 +3,6 @@ created: February 8, 2013
 blurb: some notes from my time tutoring
 tags:
     - local
-
-css:
-    - bootstrap.min.css
 ---
 
 I've been tutoring with CollegeTrack in SF for a few months now.
