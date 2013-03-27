@@ -8,7 +8,7 @@ There'll be some technical notes
 , some movie+book+music reviews
 , some build-logs
 and some tiny projects
-that didn't end up on my [main site](http://yosemitebandit.com).
+that didn't end up on my [main site](http://yosemitebandit.com/projects).
 
 feel free to get in touch - `matt.ball.2@gmail.com`
 
