@@ -37,9 +37,11 @@
     #}
     <span class='bottom-entry-tags pull-right'>
         {% for tag in entry.config.tags %}
-        <a href="../{{ tag.replace(' ', '-') }}">
-            <small>{{ tag }}</small>
-        </a>
+            <small>
+                {# ridiculous formatting seems necessary to get the comma nice and snug
+                #}
+                <a href="../{{ tag.replace(' ', '-') }}">{{ tag }}</a>{% if not loop.last %},{% endif %}
+            </small>
         {% endfor %}
     </span>
 </div>
