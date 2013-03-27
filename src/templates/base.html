@@ -34,9 +34,11 @@
           a {
             color: #05B01C;
           }
-
-          a:hover {
+          a:hover, a:hover h6, a:hover small {
             text-decoration: none;
+            color: #06CC21;
+          }
+          a:active h6, a:active small {
             color: #06CC21;
           }
 
@@ -44,8 +46,24 @@
             color: #048A16;
           }
 
+          /* user-selected text
+          */
+          ::-moz-selection {
+            background: #05B01C;
+            color: #fdfdfd;
+            text-shadow: none;
+          }
+          ::selection {
+            background: #05B01C;
+            color: #fdfdfd;
+            text-shadow: none;
+          }
+
           .header {
             padding: 15px 0 15px 0;
+          }
+          .header h4 {
+            color: #048215;
           }
 
           .indicator {
