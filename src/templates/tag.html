@@ -20,8 +20,8 @@
     {% for entry in entries %}
     <a href='../{{ entry.slug }}'>
         <blockquote>
-            <h4> {{ entry.config.title }}</h4>
-            <p>{{ entry.config.blurb }}</p>
+            <h4 class='entry-tag-title'> {{ entry.config.title }}</h4>
+            <p class='entry-blurb'>{{ entry.config.blurb }}</p>
         </blockquote>
     </a>
     {% endfor %}
