@@ -4,6 +4,7 @@
 {% macro tag_sidebar(tags, tag) %}
 {# shows a list of tags with counts
 if a tag is given, show an indicator at matching tags
+intended for display on non-small screens
 #}
 
 <div class='tags-container offset1 span3'>
@@ -48,5 +49,60 @@ if a tag is given, show an indicator at matching tags
     {% endif %}
   {% endfor %}
 </div>
+
+{% endmacro %}
+
+
+{% macro tag_bottombar(tags, tag) %}
+{# shows a list of tags with counts
+if a tag is given, show an indicator at matching tags
+intended for display on small screens
+#}
+
+<div class='tags-container'>
+
+  <div class='meta-pages'>
+    {# first render the meta files
+    #}
+    {% for m in meta_files %}
+      {% if m.slug == current_page %}
+        <h6>
+          <span class='indicator'>
+            <span class='arrow'>&raquo;</span>
+            {{ m.config['title'] }}
+          </span>
+        </h6>
+      {% else %}
+        <a href="../{{ m['slug'] }}">
+          <h6>
+            {{ m.config['title'] }}
+          </h6>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div> <!-- /span2 -->
+
+  <div class='tags'>
+    {# show the tag list
+    #}
+    {% for t in tags %}
+      {% if t['name'] == tag %}
+        <h6>
+          <span class='indicator'>
+            <span class='arrow'>&raquo;</span>
+            {{ t['name'] }} ({{ t['count'] }})
+          </span>
+        </h6>
+      {% else %}
+        <a href="../{{ t['name'].replace(' ', '-') }}">
+          <h6>
+            {{ t['name'] }} ({{ t['count'] }})
+          </h6>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+</div> <!-- /tags-container -->
 
 {% endmacro %}

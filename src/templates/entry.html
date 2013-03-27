@@ -24,11 +24,15 @@
 
 
 {% block content %}
-{% from 'macros.html' import tag_sidebar with context %}
+{# on small screens, show the taglist below the content
+#}
+<div class='hidden-phone'>
+    {% from 'macros.html' import tag_sidebar with context %}
+    {{ tag_sidebar(tags, None) }}
+</div>
 
-{{ tag_sidebar(tags, None) }}
 
-<div class='span8'>
+<div class='content span8'>
     {# the content
     #}
     {{ entry.rendered_markdown }}
@@ -46,4 +50,11 @@
     </span>
 </div>
 
+
+{# on small screens, show the taglist below the content
+#}
+<div class='visible-phone'>
+    {% from 'macros.html' import tag_bottombar with context %}
+    {{ tag_bottombar(tags, None) }}
+</div>
 {% endblock %}

@@ -28,12 +28,16 @@
 
 
 {% block content %}
-{% from 'macros.html' import tag_sidebar with context %}
 
-{{ tag_sidebar(tags, tag) }}
+{# on small screens, show the taglist below the content
+#}
+<div class='hidden-phone'>
+    {% from 'macros.html' import tag_sidebar with context %}
+    {{ tag_sidebar(tags, tag) }}
+</div>
+
 
 <div class='span8'>
-
     {% for entry in entries %}
     <a href='../{{ entry.slug }}'>
         <blockquote>
@@ -44,4 +48,11 @@
     {% endfor %}
 </div>
 
+
+{# on small screens, show the taglist below the content
+#}
+<div class='visible-phone'>
+    {% from 'macros.html' import tag_bottombar with context %}
+    {{ tag_bottombar(tags, tag) }}
+</div>
 {% endblock %}
