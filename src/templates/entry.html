@@ -18,10 +18,13 @@
 {{ tag_sidebar(tags, None) }}
 
 <div class='span8'>
-
+    {# the content
+    #}
     {{ entry.rendered_markdown }}
 
-    <span class='pull-right'>
+    {# show the tags at the bottom
+    #}
+    <span class='bottom-entry-tags pull-right'>
         {% for tag in entry.config.tags %}
         <a href="../{{ tag.replace(' ', '-') }}"><small>{{ tag|upper }}</small></a>
         {% endfor %}
