@@ -18,7 +18,7 @@ was very informative.
 I first downloaded OpenCV 2.4.4 from [Sourceforge](http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/).
 Then I followed the build instructions [here](http://docs.opencv.org/doc/tutorials/introduction/linux_install/linux_install.html#linux-installation).
 
-    $ sudo apt-get install cmake
+    $ sudo apt-get install cmake libgtk2.0-dev
     $ mkdir opencv_binary_dir
     $ cd opencv_binary_dir
     $ cmake ../opencv-2.4.4
