@@ -16,7 +16,8 @@ I'm running Ubuntu 12.04, Python 2.7 and here's how I got setup:
 For OpenCV, [this SO post](http://stackoverflow.com/a/9620295/232638)
 was very informative.
 I first downloaded OpenCV 2.4.4 from [Sourceforge](http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/).
-Then I followed the build instructions [here](http://docs.opencv.org/doc/tutorials/introduction/linux_install/linux_install.html#linux-installation).
+I added some needed libraries, and then I followed the build instructions
+[here](http://docs.opencv.org/doc/tutorials/introduction/linux_install/linux_install.html#linux-installation).
 
     $ sudo apt-get install cmake libgtk2.0-dev
     $ mkdir opencv_binary_dir
