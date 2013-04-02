@@ -9,6 +9,13 @@
     .entry-date {
         line-height: 2;
     }
+
+    /* prevents embedded gists from wrapping horizontally
+    h/t http://www.enigmaticape.com/blog/embedded-gist-missing-scrollbar/
+    */
+    .gist .line {
+        white-space: pre;
+    }
 </style>
 
 {% endblock %}
