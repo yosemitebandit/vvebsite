@@ -3,6 +3,7 @@ created: April 1, 2013
 blurb: trying OCR and general CV things in python
 tags:
     - python
+    - ocr
 ---
 
 I had a hard time training tesseract 3.02.02 for the [mtrrdr](/mtrrdr) OCR project

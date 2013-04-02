@@ -5,6 +5,7 @@ tags:
     - projects
     - tiny
     - drafts
+    - ocr
 ---
 
 Trevor and I want to do some depth mapping of the bay in our boat.
