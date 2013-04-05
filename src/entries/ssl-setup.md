@@ -2,7 +2,7 @@ title: ssl setup
 created: February 12, 2013
 blurb: 443's the way to be
 tags:
-    - servers
+    - linux
     - drafts
 ---
 

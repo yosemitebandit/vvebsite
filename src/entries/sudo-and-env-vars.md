@@ -2,7 +2,7 @@ title: preserving env vars with sudo
 created: February 26, 2013
 blurb: terribly clever
 tags:
-    - servers
+    - linux
     - notes
 ---
 
