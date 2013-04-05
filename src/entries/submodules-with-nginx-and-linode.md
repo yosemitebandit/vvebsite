@@ -4,7 +4,6 @@ updated: January 29, 2013
 blurb: settin up this note collection
 tags:
     - linux
-    - notes
 ---
 
 I wanted to setup a custom subdomain to serve static content on nginx and a linode.
