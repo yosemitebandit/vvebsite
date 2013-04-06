@@ -34,3 +34,22 @@ Then I could compile and upload from the command line like so:
 This uses the last-used values for the serial port and board.
 Check the [docs](https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5-from-command-line)
 for more switches.
+
+*update*
+
+Got Arduino 1.5.2 and ino working with the
+[fork from rogue-hack-lab](https://github.com/rogue-hack-lab/ino).
+Well, I had to add [one more tweak](https://github.com/rogue-hack-lab/ino/pull/1)
+to make the Leonardo happy.
+
+Then, like it says in the [ino quickstart](http://inotool.org/quickstart),
+I created a config file, `~/.inorc`, with just one line:
+
+    board-model = leonardo
+
+and now I can build and upload from the command line:
+
+    $ ino clean && ino build
+    $ ino upload
+
+hooray!
