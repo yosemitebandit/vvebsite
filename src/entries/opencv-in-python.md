@@ -12,7 +12,7 @@ so I've decided to try some options with
 I was interested in testing the ideas posted [here](http://stackoverflow.com/questions/9413216/simple-digit-recognition-ocr-in-opencv-python)
 and [here](http://opencvpython.blogspot.com/2012/12/k-means-clustering-2-working-with-scipy.html)
 so I wanted to install OpenCV, NumPy, SciPy and matplotlib.
-I'm running Ubuntu 12.04, Python 2.7 and here's how I got setup:
+I'm running Ubuntu 12.10, Python 2.7 and here's how I got setup:
 
 For OpenCV, [this SO post](http://stackoverflow.com/a/9620295/232638)
 was very informative.

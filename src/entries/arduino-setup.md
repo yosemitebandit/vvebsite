@@ -19,7 +19,7 @@ but the current official release of ino doesn't support Arduino v1.5.2.
 just had a small problem using it with the Leonardo.
 Might also try [this idea](http://www.martyndavis.com/?p=335) for something ino-esque.
 
-The very first step to getting Arduino 1.5.2 working on Ubuntu 12.04 was to just test the Arduino IDE.
+The very first step to getting Arduino 1.5.2 working on Ubuntu 12.10 was to just test the Arduino IDE.
 I had the "greyed out serial port" problem.
 This was solved by adding my username to the `dialout` group via:
 `sudo adduser matt dialout`.
