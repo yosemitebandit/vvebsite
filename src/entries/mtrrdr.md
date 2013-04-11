@@ -4,7 +4,6 @@ blurb: OCR for instrumentation
 tags:
     - projects
     - tiny
-    - drafts
     - ocr
 ---
 
