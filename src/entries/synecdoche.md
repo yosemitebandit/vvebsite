@@ -1,8 +1,9 @@
-title: synecdoche
+title: Synecdoche
 created: February 1, 2013
 blurb: from Charlie Kaufman
 tags:
-    - drafts
+    - reviews
+    - films
 ---
 
 A film to get lost in.
