@@ -1,8 +1,9 @@
-title: inglourious basterds
+title: Inglourious Basterds
 created: February 10, 2013
 blurb: from Quentin
 tags:
-    - drafts
+    - reviews
+    - films
 ---
 
 It had its moments.
