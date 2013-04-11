@@ -1,18 +1,17 @@
-title: Mozambique 2012
-created: March 27, 2013
-blurb: training, surveying and eating some excellent seafood
+title: Uganda 2012
+created: April 10, 2013
+blurb: a conference, and a visit with Roey
 tags:
     - travels
     - drafts
     - werk
 ---
 
-While working for [Aquaya](http://aquaya.org) I spent a busy few weeks in
-Maputo and Beira.
+In the middle of my [trip to Mozambique](/mozambique)
+I flew briefly to Uganda to help with a conference Aquaya was putting on.
 
-Technical assistance background and the 1M Initiative.
+Unfortunately didn't meet up with Kenneth or Ignitius.
 
-Work with Matteus, Delfim and Sergio.
-
-Other observations - the lumber camps, the rural areas, the resources, the rent,
-seeing the presidential results come back
+Did see Roey and toured his awesome office.
+Heard of his amazing plans with husk power.
+..Saw James Bond which mentioned Uganda to everyone's delight.
