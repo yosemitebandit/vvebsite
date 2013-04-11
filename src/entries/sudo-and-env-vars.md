@@ -3,6 +3,7 @@ created: February 26, 2013
 blurb: terribly clever
 tags:
     - linux
+    - drafts
 ---
 
 Saw this [SuperUser answer](http://superuser.com/a/422962/27119) 
