@@ -33,3 +33,5 @@ displaying them in plaintext just once and expecting you to treat them like pass
 
 * a nice [ansible example](http://www.stavros.io/posts/example-provisioning-and-deployment-ansible)
 with mention of git-crypt which is kinda similar to the idea above
+* another [ansible post](http://red-badger.com/blog/2014/02/28/deploying-ssl-keys-securely-with-ansible)
+using openssl to encrypt certs and `vars_prompt` to get a user-typed password
