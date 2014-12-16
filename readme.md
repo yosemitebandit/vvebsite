@@ -1,6 +1,15 @@
 the start of a new blog - built with [bugle](https://github.com/yosemitebandit/bugle).
 
-build the `src` and serve or deploy
+
+### first
+
+    $ source ~/path/to/venv/bin/activate
+    $ pip install -r requirements.txt
+    $ git submodule init
+    $ git submodule update
+
+
+### later building / testing / deploying
 
     $ fab prod clean build
     $ fab prod serve
