@@ -8,6 +8,16 @@ the start of a new blog - built with [bugle](https://github.com/yosemitebandit/b
     $ git submodule init
     $ git submodule update
 
+make sure your remote is identified in `/etc/hosts`:
+
+    171.223.55.4 kepler 
+
+and in `~/.ssh/config`:
+
+    Host kepler
+      Hostname 171.223.55.4
+      User matt
+
 
 ### later building / testing / deploying
 
