@@ -5,6 +5,7 @@ tags:
     - linux
     - python
     - reading
+    - watching
 
 ---
 
