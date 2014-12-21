@@ -18,11 +18,9 @@ that given any system design, someone someday will find a better one to do the s
 (hah, no irony here either, I think)
  * "To the extent that an organization is not completely flexible in its communication structure,
 that organization will stamp out an image of itself in every design it produces."
-
  * and then a perhaps cynical, but certainly interesting take on managing systems
 which concludes that communication in large teams disintegrate, and so, qed,
 large systems themselves disintegrate
  * "Because the design which occurs first is almost never the best possible,
 the prevailing system concept may need to change. Therefore, flexibility of organization is
 important to effective design."
-
