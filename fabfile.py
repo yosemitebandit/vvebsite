@@ -57,14 +57,9 @@ def serve():
 
 
 def clean():
-  ''' removes the output directory and its contents after a confirmation
+  ''' removes the output directory and its contents
   '''
-  r = raw_input('\nconfirm removal of "%s" and all of its contents (y/n) ' %
-                env.out_path)
-  if r in ['y', 'yes']:
-    local('rm -rf %s' % env.out_path)
-  else:
-    print 'canceled.'
+  local('rm -rf %s' % env.out_path)
 
 
 def build():
