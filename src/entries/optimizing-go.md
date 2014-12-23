@@ -1,13 +1,13 @@
-title: optimizing go
+title: benchmarks and testing in go
 created: December 22, 2014
-blurb: ashish gandhi from cloudflare
+blurb: ashish gandhi from cloudflare and andrew gerrand from google
 tags:
-    - linux
+    - watching
     - go
     
 ---
 
-https://www.youtube.com/watch?v=JkgQJrodSpI#t=94
+[on benchmarking / optimization](https://www.youtube.com/watch?v=JkgQJrodSpI#t=94)
 
 * part of their anti-DDOS system
 * they examine User Agents and 'Referer' (hah, a misspelled part of the HTTP header that persists)
@@ -17,3 +17,9 @@ https://www.youtube.com/watch?v=JkgQJrodSpI#t=94
 ..but this was just some virtualbox artifact
 * switched to vmware
 * string manipulation produced a lot of garbage
+
+
+[on testing](https://www.youtube.com/watch?v=ndmB0bj7eyw)
+* covers basic testing
+* the nice little `outyet` demo app
+* and info on testing http clients and servers: `httptest.NewServer`
