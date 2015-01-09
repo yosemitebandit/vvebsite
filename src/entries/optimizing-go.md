@@ -20,6 +20,7 @@ tags:
 
 
 [on testing](https://www.youtube.com/watch?v=ndmB0bj7eyw)
+
 * covers basic testing
 * the nice little `outyet` demo app
 * and info on testing http clients and servers: `httptest.NewServer`
