@@ -30,5 +30,7 @@ tags:
 * playing with this more, and getting themes set up has been amusing..
 * I quite like [this theme](https://github.com/stou/stou-dk-theme)
 * it has required me to install npm and then bower..
-* and then rvm and then ruby gem and then bundler (rvm of course also has its own installer for more reqs)
+* and then rvm and then ruby gem and then bundler and then compass (rvm of course also has its own installer for more reqs)
 * of course I previously installed hugo with go and go with apt (well, I could've)
+* compass throws a bunch of warnings on scss compilation
+* and after all that, the hugo template fails to compile :(
