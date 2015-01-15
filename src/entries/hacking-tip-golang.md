@@ -2,16 +2,17 @@ title: hacking tip.golang.org
 created: January 14, 2015
 blurb: with fitz and gerrand
 tags:
-    - golang
+    - go
 
 ---
 
-hacking tip.golang.org with Brad Fitzpatrick and Andrew Gerrand
+[hacking tip.golang.org](https://www.youtube.com/watch?v=1rZ-JorHJEY)
+with Brad Fitzpatrick and Andrew Gerrand
 
-https://www.youtube.com/watch?v=1rZ-JorHJEY
 
 * hah, never even thought of connecting an external keyboard for pair programming
-* the source of what they built (and I guess I wrote this too): https://github.com/golang/tools/blob/master/cmd/tipgodoc/tip.go
+* [the source](https://github.com/golang/tools/blob/master/cmd/tipgodoc/tip.go)
+of what they built (and I guess I wrote this too): 
 * nice examples of os/exec
 * I later used cmd.Run() rather than cmd.Start() to make execution wait until the cmd finished
 * this of course is nicely explained in the docs, the lesson being that I should've read those more carefully
