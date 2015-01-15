@@ -14,10 +14,11 @@ some vim tips that I've picked up recently
   * s/red/green/g to change all reds to greens
   * this was a bit confusing as non-visual mode selection is the same command but with a percent sign :/
  
-* find/replace a word under the cursor: http://vim.wikia.com/wiki/Search_and_replace_the_word_under_the_cursor
+* find/replace a word under the cursor
+as per [this article](http://vim.wikia.com/wiki/Search_and_replace_the_word_under_the_cursor)
   * type *
   * ciw (change inner word)
-  * <esc>
+  * `<esc>`
   * then n (next occurrence)
   * and . (repeat change)
 
