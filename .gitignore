@@ -1,3 +1,5 @@
 out/*
 *.pyc
 out.tgz
+public/
+themes/
