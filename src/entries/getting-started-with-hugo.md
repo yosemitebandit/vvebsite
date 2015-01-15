@@ -26,3 +26,9 @@ tags:
   * the `watch` flag will automatically reload pages when they change..cool
 
     hugo server --theme=hyde --buildDrafts --port=8080 --watch
+
+* playing with this more, and getting themes set up has been amusing..
+* I quite like [this theme](https://github.com/stou/stou-dk-theme)
+* it has required me to install npm and then bower..
+* and then ruby gem and then bundler
+* of course I previously installed hugo with go and go with apt (well, I could've)
